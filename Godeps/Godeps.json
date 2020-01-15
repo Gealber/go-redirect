@@ -2,12 +2,8 @@
     "ImportPath":"go-redirect",
     "GoVersion": "go1.6",
     "Packages": [
-        "./server",
-        "./main.go"
-    ],
-    "Deps": [
-        "goown-vpn/server",
         "github.com/codegangsta/negroni",
-	    "github.com/gorilla/mux"
-    ]
+	    "github.com/gorilla/mux"        
+    ],
+    "Deps": []
 }
