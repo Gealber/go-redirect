@@ -1,6 +1,6 @@
 {
     "ImportPath":"go-redirect",
-    "GoVersion": "go1.13.4",
+    "GoVersion": "go1.6",
     "Packages": [
         "./.."
     ],
