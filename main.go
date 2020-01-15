@@ -1,8 +1,8 @@
 package main
 
 import (
-	"os"
-	"server"
+	"goown-vpn/server"
+	"os"	
 )
 
 func main() {

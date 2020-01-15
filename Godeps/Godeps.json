@@ -1,9 +1,20 @@
 {
-    "ImportPath":"go-redirect",
-    "GoVersion": "go1.6",
-    "Packages": [
-        "github.com/codegangsta/negroni",
-	    "github.com/gorilla/mux"        
-    ],
-    "Deps": []
+	"ImportPath": "goown-vpn",
+	"GoVersion": "go1.13",
+	"GodepVersion": "v80",
+	"Packages": [
+		"."
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/codegangsta/negroni",
+			"Comment": "v1.0.0-35-gf431679",
+			"Rev": "f4316798d5d3acd39eb6784301b19f27f471415f"
+		},
+		{
+			"ImportPath": "github.com/gorilla/mux",
+			"Comment": "v1.7.3-15-g49c0148",
+			"Rev": "49c01487a141b49f8ffe06277f3dca3ee80a55fa"
+		}
+	]
 }
