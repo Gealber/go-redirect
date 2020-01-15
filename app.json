@@ -1,0 +1,16 @@
+{
+    "name": "Go Redirect",
+    "description": "Go Redirect Example App",
+    "keywords": [
+      "go"
+    ],
+    "buildpacks":[      
+      {"url":"heroku/go"}
+    ],    
+    "repository": "https://github.com/Gealber/go-redirect",
+    "formation":{
+      "web":{
+        "quantity":1
+      }
+    }
+  }
