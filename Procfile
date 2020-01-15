@@ -1,1 +1,1 @@
-web: go-redirect
+web: goown-vpn
