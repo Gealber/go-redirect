@@ -1,0 +1,11 @@
+{
+    "ImportPath":"go-redirect",
+    "GoVersion": "go1.13.4",
+    "Packages": [
+        "./.."
+    ],
+    "Deps": [
+        "github.com/codegangsta/negroni",
+	    "github.com/gorilla/mux"
+    ]
+}

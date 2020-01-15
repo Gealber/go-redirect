@@ -2,7 +2,7 @@ package main
 
 import (
 	"os"
-	"goown-vpn/server"
+	"goown-vpn/cmd/server"
 )
 
 func main() {
